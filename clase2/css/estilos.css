@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap');
+
+
+body{
+    background-color: rgb(38, 55, 58);
+    color: hsl(189, 21%, 86%);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 300;
+    color:hsl(189, 100%, 86%);;
+}
