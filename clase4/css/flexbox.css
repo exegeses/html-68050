@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    background-color: #240046;
+    color: #e0aaff;
+
+}
+main{
+    width: 768px;
+    margin: 40px auto;
+}
+
+h2{
+    margin-top: 32px;
+}
+
+#contenedor{
+    height: 450px;
+    background-color: #5a189a;
+    margin: 0px 0px 64px 0px;
+
+    display: flex;
+    /*  destribución en el ejeX (horizontal) */
+    /* justify-content: start; /* predeterminado:  izquierda */
+    /* justify-content: end; /* hacia la derecha */
+    /* justify-content: center; */
+    justify-content: space-between;
+
+}
+#contenedor2{
+    height: 450px;
+    background-color: #5a189a;
+    margin: 0px 0px 64px 0px;
+
+    display: flex;
+    /*  destribución en el ejeY (vertical) */
+    /* align-items: start; /* predeterminado:  arriba */
+    /* align-items: end; /* abajo */
+    align-items: center;
+}
+#contenedor3{
+    height: 450px;
+    background-color: #5a189a;
+    margin: 0px 0px 64px 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article{
+    width: 128px;
+    height: 128px;
+    background-color: #9d4edd;
+    border: 2px solid #240046;
+    text-align: center;
+}
+
+/*
+5a189a
+9d4edd
+240046
+*/

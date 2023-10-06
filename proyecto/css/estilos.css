@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    color: #3c3c3c;
+    font-weight: 300;
+}
+
+header{
+    width: 1024px;
+    height: 104px;
+    margin: auto; /* centrar un CONTENEDOR */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* centrar en eje VERTICAL */
+}
+
+    header nav a{
+        color: #3c3c3c;
+        text-decoration: none; /* quitar subrayado */
+        font-weight: 400;
+        padding: 8px;
+    }
