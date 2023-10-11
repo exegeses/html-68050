@@ -27,3 +27,60 @@ header{
         font-weight: 400;
         padding: 8px;
     }
+
+/* main */
+main{
+    width: 1024px;
+    min-height: 500px;
+    margin: auto; /* centrar un CONTENEDOR */
+}
+/* hero-banner */
+#hero-banner{
+    height: 450px;
+    background-image: url(../imgs/bg-hero.jpg);
+    display: flex;
+    align-items: center;
+}
+    #hero-banner h1{
+        font-size: 32px;
+        color: #fff;
+        margin-left: 180px;
+        width: 276px;
+    }
+
+/* sección promos */
+#promos{
+    height: 440px;
+    margin-top: 40px;
+    padding: 32px;
+    background-color: #F6F4EF;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+    #promos a{
+        text-decoration: none;
+        color: #3c3c3c;
+    }
+
+    #promos article{
+        width: 296px;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+    #promos article:hover {
+        /* box-shadow: ejeX ejeY Blur color ;*/
+        box-shadow: 0px 0px 8px hsl(43, 28%, 70%);;
+    }
+
+        #promos a article img{
+            border-radius: 8px;
+        }
+
+        #promos a article h2{
+            font-weight: 400;
+            margin-top: 16px;
+            margin-bottom: 20px;
+        }
