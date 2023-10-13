@@ -84,3 +84,62 @@ main{
             margin-top: 16px;
             margin-bottom: 20px;
         }
+
+/* hero-video */
+#hero-video{
+    height: 450px;
+    position: relative;
+}
+    #hero-video video{
+        width: 1024px;
+        height: 450px;
+        object-fit: cover;
+    }
+    #hero-video div{
+        position: absolute;
+        width: 1024px;
+        height: 450px;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #hero-video div h1{
+            color: #fff;
+            font-size: 48px;
+            font-weight: 300;
+        }
+
+/* sección rooms */
+#rooms{
+    margin-top: 40px;
+    padding: 32px;
+    background-color: #FAF0E9;
+    display: grid;
+    row-gap: 32px;
+}
+    #rooms article{
+        display: flex;
+    }
+        #rooms article div{
+            background-color: #fff;
+        }
+
+/* footer */
+footer{
+    height: 160px;
+    width: 1024px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #3C3C3C;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+    footer div a{
+        margin: 8px;
+        text-decoration: none;
+    }
