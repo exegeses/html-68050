@@ -121,9 +121,39 @@ main{
 }
     #rooms article{
         display: flex;
+        transition: 500ms;
+    }
+    #rooms article:hover{
+        transform: scale(102%);
     }
         #rooms article div{
+            padding: 16px 32px;
             background-color: #fff;
+        }
+        #rooms article div h2{
+            font-weight: 400;
+        }
+        #rooms article div span{
+            color: #CB582E;
+            font-weight: 400;
+            display: inline-block;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        #rooms article div a{
+            text-decoration: none;
+            width: 160px;
+            background-color: #CB582E;
+            display: block;
+            margin: 24px auto;
+            padding: 8px;
+            color: #fff;
+            border-radius: 12px;
+            text-align: center;
+            transition: 500ms;
+        }
+        #rooms article div a:hover{
+            background-color: hsl(16, 63%, 60%);
         }
 
 /* footer */
